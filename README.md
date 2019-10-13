@@ -1,6 +1,11 @@
-# What is Angular CLI Container
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/apptower/angularcli)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/apptower/angularcli)
+![Docker Pulls](https://img.shields.io/docker/pulls/apptower/angularcli?color=00e68a)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AppTower/AngularCLI?label=latest&sort=semver&color=cc99ff)
 
-A typical development environment for Angular CLI.
+# What is this
+
+A typical containerized development environment for Angular CLI.
 
 # How to use this image
 

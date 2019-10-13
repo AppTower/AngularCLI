@@ -4,7 +4,7 @@ RUN apt-get install -y sudo openssh-server vim
 RUN usermod -aG sudo node
 RUN mkdir /var/run/sshd
 RUN npm install -g npm@latest
-RUN echo N | npm install -g @angular/cli@8.3.8
+RUN echo N | npm install -g @angular/cli@8.3.9
 COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["bash"]
