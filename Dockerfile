@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:lts
 RUN apt-get update
 RUN apt-get install -y sudo openssh-server vim
 RUN usermod -aG sudo node
