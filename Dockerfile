@@ -3,8 +3,8 @@ RUN apt-get update
 RUN apt-get install -y sudo openssh-server vim
 RUN usermod -aG sudo node
 RUN mkdir /var/run/sshd
-RUN npm install -g npm@latest
-RUN echo N | npm install --location=global @angular/cli@13.3.7
+RUN npm install --location=global npm@latest
+RUN npm install --location=global @angular/cli@13.3.8
 COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["bash"]
